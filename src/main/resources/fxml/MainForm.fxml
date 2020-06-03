@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.example.controller.MainFormController">
+   <children>
+      <BorderPane layoutX="113.0" layoutY="44.0" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <bottom>
+            <Pane prefHeight="118.0" prefWidth="600.0" BorderPane.alignment="CENTER">
+               <children>
+                  <Button fx:id="buttonCreateCargoes" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#buttonCreateCargoesOnClick" text="Создание грузов" />
+                  <Label layoutX="154.0" layoutY="6.0" text="Поиск ячеек (указываются через запятую)" />
+                  <TextField fx:id="editSearch" layoutX="154.0" layoutY="27.0" prefHeight="25.0" prefWidth="432.0" />
+                  <Button fx:id="buttonSearch" layoutX="156.0" layoutY="59.0" mnemonicParsing="false" onAction="#buttonSearchOnClick" prefHeight="25.0" prefWidth="89.0" text="Поиск" />
+                  <Button fx:id="buttonExport" layoutX="14.0" layoutY="59.0" mnemonicParsing="false" onAction="#buttonExportOnClick" prefHeight="25.0" prefWidth="108.0" text="Экспорт в XML" />
+               </children></Pane>
+         </bottom>
+         <center>
+            <TableView fx:id="table" prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER" />
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

@@ -1,0 +1,10 @@
+ru\example\db\dao\LocationDao.class
+ru\example\db\dao\LoadsDaoImpl.class
+ru\example\db\entities\Loads.class
+ru\example\db\dao\LocationDaoImpl.class
+ru\example\db\entities\CommonEntity.class
+ru\example\db\dao\LoadsDao.class
+ru\example\AppMain.class
+ru\example\db\dao\CommonDao.class
+ru\example\db\entities\Location.class
+ru\example\controller\MainFormController.class

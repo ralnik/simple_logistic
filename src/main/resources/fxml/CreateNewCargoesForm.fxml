@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="209.0" prefWidth="358.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.example.controller.CreateNewCargoesController">
+   <children>
+      <Label layoutX="66.0" layoutY="48.0" text="Наименование ячейки" />
+      <Label layoutX="66.0" layoutY="99.0" text="Количество грузов" />
+      <TextField fx:id="editName" layoutX="66.0" layoutY="65.0" prefHeight="25.0" prefWidth="206.0" />
+      <Spinner fx:id="editCountCargoes" layoutX="66.0" layoutY="116.0" min="1" max="1000" />
+      <Button fx:id="buttonCreate" layoutX="66.0" layoutY="157.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="104.0" text="Создать" onAction="#buttonCreateOnClick"/>
+      <Button fx:id="buttonCancel" layoutX="179.0" layoutY="157.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="97.0" text="Отмена" onAction="#buttonCancelOnClick"/>
+   </children>
+</AnchorPane>

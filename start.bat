@@ -1,0 +1,1 @@
+java -jar simple-logistic-1.0.jar
